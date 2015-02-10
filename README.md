@@ -5,11 +5,11 @@
 #include <cmath>
 using namespace std;
 
-int velocity(int a, int b)
+int velocity(int a, int b) //example of how int ('integer' works)
 {
-  int equals = 0;
-  equals = a + b;
-  return a;
+  int equals = 0; //declare int as equals and set it to 0 in case there is some junk that the comp thinks equals is defined as
+  equals = a + b;  //a + b is the new value of equals
+  return equals;  //return tells the computer what the user wants to see. In this case it will give us the new value (a+b) of equals
 }
 
 int main ()
